@@ -8,3 +8,11 @@ server:
 spring:
   application:
     name: service-hi
+management:
+  endpoints:
+   web:
+    exposure:
+     include: "*"
+    cors:
+     allowed-origins: "*"
+     allowed-methods: "*"

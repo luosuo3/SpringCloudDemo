@@ -22,7 +22,6 @@ public class ZipkinServerMiyaApplication {
 
     private static final Logger LOG = Logger.getLogger(ZipkinServerMiyaApplication.class.getName());
 
-
     @RequestMapping("/hi")
     public String home(){
         LOG.log(Level.INFO, "hi is being called");
